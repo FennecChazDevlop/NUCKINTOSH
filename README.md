@@ -30,6 +30,8 @@
 
 # Getting Started
 ##  What will you Need
+  >---
+  
   > - Obviously a INTEL NUC
   > - Patience
   > - Around 1-2 hours
@@ -37,9 +39,20 @@
   > - Pendrive 2.0 with at least 16gb, not too old btw
   > - Basic CMD knowledge
   > - Installation EFI FOLDER, Post-Install EFI FOLDER, Both can be found in this repo ( Releases )
+  
+  >---
+##  
 
 # Prepare Machine
 ### First we need to update our Nuc's bios from XXXX ---> 0089.
 To do that we need to download the bios updater from [Intel's Webpage](https://www.intel.la/content/www/xl/es/products/sku/126150/intel-nuc-kit-nuc8i3beh/downloads.html) and Download the first One as a windows executable (.exe / .msi)
-![intel1](https://i.ibb.co/K9MPybz/Screenshot-at-Sep-10-13-55-03.png)
-![intel2](https://i.ibb.co/BPVvK2R/Screenshot-at-Sep-10-16-39-48.png)
+>---
+
+>![intel1](https://i.ibb.co/K9MPybz/Screenshot-at-Sep-10-13-55-03.png)
+
+>---
+>---
+
+>![intel2](https://i.ibb.co/BPVvK2R/Screenshot-at-Sep-10-16-39-48.png)
+
+>---
