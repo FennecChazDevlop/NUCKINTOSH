@@ -140,3 +140,22 @@ Boot > Boot Configuration > Network Boot: Disable
 ```
 Power -> Wake on LAN from S4/S5: Stay Off
 ```
+# Prepare USB
+
+ ##  1.- Downlaod the Installation EFI From this repository 
+  >---
+  
+  >#### [ Nuckintosh ](https://github.com/FennecChazDevlop/NUCKINTOSH/released)
+  
+  >---
+ ##  2.- Download [ Rufus ](https://rufus.ie/en/) From his official site
+ 
+  ![ Rufus ](https://i.ibb.co/QYJ254V/Screenshot-at-Sep-11-00-51-33.png)
+ 
+ ##  3.- Download [ Rufus ](https://rufus.ie/en/) From his official site
+  >---
+  
+  >#### [ Nuckintosh ](https://github.com/FennecChazDevlop/NUCKINTOSH/released)
+  
+  >---
+ 
