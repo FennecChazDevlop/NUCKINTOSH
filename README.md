@@ -44,7 +44,7 @@
 ##  
 
 # Prepare Machine
-### First we need to update our Nuc's bios from XXXX ---> 0089.
+### 1.- First we need to update our Nuc's bios from XXXX ---> 0089.
 To do that we need to download the bios updater from [Intel's Webpage](https://www.intel.la/content/www/xl/es/products/sku/126150/intel-nuc-kit-nuc8i3beh/downloads.html) and Download the first One as a windows executable (.exe / .msi)
 >---
 
@@ -54,5 +54,18 @@ To do that we need to download the bios updater from [Intel's Webpage](https://w
 >---
 
 >![intel2](https://i.ibb.co/BPVvK2R/Screenshot-at-Sep-10-16-39-48.png)
+
+>---
+
+#### 2.- Double-click the *.msi file to run the Express BIOS update.
+>---
+
+>![nuc22](https://www.intel.com/content/dam/support/us/en/images/mini-pcs/5636_image2.jpg)
+
+>---
+#### 3.- DClick Restart and Install BIOS on the Welcome screen.
+>---
+
+>![nuc33](https://www.intel.com/content/dam/support/us/en/images/mini-pcs/5636_image3.jpg)
 
 >---
