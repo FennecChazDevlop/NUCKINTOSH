@@ -25,9 +25,6 @@
 
 >---
 
-
-
-
 # Getting Started
 ##  What will you Need
   >---
@@ -87,7 +84,21 @@
   - [ ] 144hz Monitor *UNTESTED*
   >---
  
-##  
+##  Finished Work be like 
+
+  >---
+
+  >![happy](https://i.ibb.co/qj6kQhT/Screenshot-at-Sep-10-13-35-04.png)
+
+  >---
+
+
+>---
+>>---
+>>>---
+>>---
+>---
+
 
 # Prepare Machine ( BIOS UPDATE )
 ### 1.- First we need to update our Nuc's bios from XXXX ---> 0089.
@@ -116,6 +127,14 @@ To do that we need to download the bios updater from [Intel's Webpage](https://w
 
 >---
 
+
+>---
+>>---
+>>>---
+>>---
+>---
+
+
 # Prepare Machine ( BIOS Configuration )
 
 #### 1.- Reset default Settings
@@ -140,22 +159,98 @@ Boot > Boot Configuration > Network Boot: Disable
 ```
 Power -> Wake on LAN from S4/S5: Stay Off
 ```
+
+
 # Prepare USB
 
- ##  1.- Downlaod the Installation EFI From this repository 
+ ###  1.- Downlaod the Installation EFI From this repository 
   >---
   
   >#### [ Nuckintosh ](https://github.com/FennecChazDevlop/NUCKINTOSH/released)
   
   >---
- ##  2.- Download [ Rufus ](https://rufus.ie/en/) From his official site
+ ###  2.- Download [ Rufus ](https://rufus.ie/en/) From his official site
  
   ![ Rufus ](https://i.ibb.co/QYJ254V/Screenshot-at-Sep-11-00-51-33.png)
  
- ##  3.- Download [ Rufus ](https://rufus.ie/en/) From his official site
+ ###  3.- Format your USB Drive as Fat32 and set it as Non-Bootable
   >---
   
-  >#### [ Nuckintosh ](https://github.com/FennecChazDevlop/NUCKINTOSH/released)
+  >#### just like the next image
+  ![ Rufus2 ](https://i.ibb.co/wWbJ8mB/rufus-file-system-and-volume-label.png)
   
+  >---
+ ###  4.- Copy the INSTALLATION EFI-FOLDER directly to the root of the USB DRIVE 
+  >---
+  
+  >#### The Route Should be like this 
+```
+D:/EFI
+```
   >---
  
+ ###  5.- Load the MacOS System to your USB DRIVE
+  >---
+  
+  >#### Create a Folder with this name 
+```
+com.apple.recovery.boot
+```
+  >#### Next Copy your Recovery System of MacOS .DMG and his .ChunkList 
+  >to the 
+```
+com.apple.recovery.boot
+```
+  >Folder 
+
+#### PD: You can get your MacOS .dmg and .chunklist from [ gibMacOS ](https://github.com/corpnewt/gibMacOS)
+
+>---
+
+
+
+# Installation
+
+## The installation Process is easy
+#### 1.- Shutdown Intel Nuc
+#### 2.- Power ON and go to the Bios
+#### 3.- Set USB Drive as Primary Bootable Device
+#### You will get a boot screen Like this --->
+![ OCL ](https://www.insanelymac.com/uploads/monthly_2020_11/OC_Boot.jpg.0c8516fcaba58ea528581dbd688dd8ca.jpg)
+#### 4.- Load MacOS Recovery
+#### 5.- Use Disk Utility to format your Mac OS dedicated Disk or Partition to APFS ( Reference IMAGE )  
+![ OCL ](https://support.apple.com/library/content/dam/edam/applecare/images/en_US/macos/Mojave/macos-mojave-disk-utility-add-volume.jpg)
+#### 6.- Then Install MacOS as an ordinary APPLE DEVICE 
+![ OCL ](https://support.apple.com/library/content/dam/edam/applecare/images/en_US/macos/Big-Sur/macos-big-sur-recovery-reinstall-macos.jpg)
+
+
+
+# Post-Install
+
+## There's no much things to do, more than
+#### > - Change the EFI FOLDER To the post install Version
+#### > - Using [ OpenCoreConfigurator ](https://mackie100projects.altervista.org/opencore-configurator/) Open your SSD or HDD EFI Partition and Paste the Post-Install EFI Folder  
+#### > - If you want you can use [ BarrierKVM ](https://github.com/maxiberta/barrier) to use your main pc Mouse and Keyboard with your NEW NUCKINTOSH :D
+
+# Fix iservices and icloud
+
+### [ Dortania ](https://dortania.github.io/OpenCore-Install-Guide/) Have a very nice explanatory of how to fix the Mac Services, and much better explained than me so the best option is use his guide 
+
+## [ DortaniaGuide - Fix iservices  ](https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html#using-gensmbios)
+
+
+>---
+>
+>
+>>---
+>
+>>>---
+>
+>>---
+>
+>
+>---
+
+
+Credits to [ Dortania ](https://dortania.github.io/OpenCore-Install-Guide/) And his Awesome Guide, and this Awesome Comunnity !!! 
+I hope this porly contribution helps someone <3
