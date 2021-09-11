@@ -41,9 +41,55 @@
   > - Installation EFI FOLDER, Post-Install EFI FOLDER, Both can be found in this repo ( Releases )
   
   >---
+  
+ ##  What contains the Post-Install EFI Folder
+  >---
+  
+  > - Airportltlwm.kext
+  > - AppleALC.kext
+  > - IntelBluetoothFirmware.kext
+  > - IntelBluetoothInjector.kext
+  > - IntelMausi.Kext
+  > - Lilu.kext
+  > - Sinetek-rtsx.kext
+  > - SMCProcessor.kext
+  > - SMCSuperIO.kext
+  > - USBports.kexts
+  > - VirtualSMC.kext
+  > - WhateverGreen.kext
+  > - Custom SSDT For Intel Nuc's8IXBEX
+
+
+  >---
+  
+##  What is working 
+  >---
+  
+  - [X] Audio (HDMI and Headphone jack)
+  - [X] Audio controls
+  - [X] Bluetooth
+  - [X] Ethernet
+  - [X] Wifi
+  - [X] USB 3.0
+  - [X] USB Type C (ThunderVolt)
+  - [X] UP To Quad Booting (Linux, Android(Home Center), Windows and macOS)
+  - [X] microSD Card reader
+  - [X] ICLOUD
+  - [X] Facetime, Imessages, Iservices
+
+   >---
+ ##  UnTested / Not Working  
+  >---
+  
+  - [ ] 4k Resolution *UNTESTED*
+  - [ ] Type C to HDMI or DisplayPort *NotWorking*
+  - [ ] 4+ usb Hub *Not Working*
+  - [ ] 144hz Monitor *UNTESTED*
+  >---
+ 
 ##  
 
-# Prepare Machine
+# Prepare Machine ( BIOS UPDATE )
 ### 1.- First we need to update our Nuc's bios from XXXX ---> 0089.
 To do that we need to download the bios updater from [Intel's Webpage](https://www.intel.la/content/www/xl/es/products/sku/126150/intel-nuc-kit-nuc8i3beh/downloads.html) and Download the first One as a windows executable (.exe / .msi)
 >---
