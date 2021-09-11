@@ -115,3 +115,28 @@ To do that we need to download the bios updater from [Intel's Webpage](https://w
 >![nuc33](https://www.intel.com/content/dam/support/us/en/images/mini-pcs/5636_image3.jpg)
 
 >---
+
+# Prepare Machine ( BIOS Configuration )
+
+#### 1.- Reset default Settings
+```
+Home > Default Settings > Confirm > Yes
+```
+#### 2.- Follow the Next Configuration in Devices
+```
+Devices > USB > Port Device Charging Mode: off
+Devices > USB > USB Legacy -> Disabled
+```
+#### 3.- Change Type C's Security Level in security section
+```
+Security > Thunderbolt Security Level: Legacy Mode
+```
+#### 4.- Disable Secure Boot and Network Boot in Boot section
+```
+Boot > Secure Boot > Disable
+Boot > Boot Configuration > Network Boot: Disable
+```
+#### 5.- Disable Lan Boot in Power section
+```
+Power -> Wake on LAN from S4/S5: Stay Off
+```
