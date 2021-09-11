@@ -1,3 +1,24 @@
+
+# Nuckintosh 8th generation ( Model Nuc8I3BEH ) 
+
+### INDEX
+
+>---
+>
+> ####  > - [Introduction](https://github.com/FennecChazDevlop/NUCKINTOSH#nuckintosh-8th-generation--model-nuc8i3beh-)
+> ####  > - [Ebay Link's](https://github.com/FennecChazDevlop/NUCKINTOSH#you-can-buy-one-in-here)
+> ####  > - [Getting Started](https://github.com/FennecChazDevlop/NUCKINTOSH#getting-started)
+> ####  > - [Prepare Machine ( BIOS UPDATE ) ](https://github.com/FennecChazDevlop/NUCKINTOSH#prepare-machine--bios-update-)
+> ####  > - [Prepare Machine ( BIOS Configuration )](https://github.com/FennecChazDevlop/NUCKINTOSH#prepare-machine--bios-configuration-)
+> ####  > - [Prepare USB](https://github.com/FennecChazDevlop/NUCKINTOSH#prepare-usb)
+> ####  > - [Installation](https://github.com/FennecChazDevlop/NUCKINTOSH#installation)
+> ####  > - [Post-Install](https://github.com/FennecChazDevlop/NUCKINTOSH#post-install)
+> ####  > - [Fix iservices and icloud](https://github.com/FennecChazDevlop/NUCKINTOSH#fix-iservices-and-icloud)
+> ####  > - [Credits](https://github.com/FennecChazDevlop/NUCKINTOSH#-dortaniaguide---fix-iservices--)
+>
+>---
+
+
 # Nuckintosh 8th generation ( Model Nuc8I3BEH ) 
 > ### *Compatible with MacOS Catalina, Big sur, Monterey*
 ## Also works with Nuc8IXBEX i3 / i5 / i7 
